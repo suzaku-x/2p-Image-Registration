@@ -71,9 +71,9 @@ with open(sh_reg3d_path,'w') as f:
 ## Check registration
 
 ### 2D: Peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
-### 3D: Open warped zstack and atlas in ImageJ, merge them with different color and check if they match well.
+### 3D: Open warped zstack and atlas in ImageJ, merge them with different colors and check if they match well.
 
 ## Apply transformation
-### Check your ROI csv paths, and check the row names before transformation.
+### Check your ROI csv paths, and check the row names before applying transformation.
 -You can use [this code](renametitle.py) for changing titles.
 
