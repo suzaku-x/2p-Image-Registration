@@ -3,18 +3,10 @@
 [![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This is a pipeline for 2D zebrafish brain visualization.
+This is a pipeline for zebra fish brain image registration.
 
 ## Description
 This easy-to-use pipeline which can process fish one by one, around 30 minutes for each fish.
-
-## Table of Contents
-
-- [Preparation](#Preparation)
-- [Packages](#Packages)
-- [Path to change](#Path to change)
-- [Check registration](#Check registration)
-- [Apply transformation](#Apply transformation)
 
 
 
@@ -34,7 +26,7 @@ This easy-to-use pipeline which can process fish one by one, around 30 minutes f
 1. Motion correction.
 2. Confirm the direction of atlas and your zstack being consistent.
 3. Copy and save each zstack as nrrd format.
-4. 
+
 ## Packages
 
 
@@ -76,7 +68,6 @@ with open(sh_reg3d_path,'w') as f:
 
 
 
-gi
 ## Check registration
 
 ### 2D: peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
