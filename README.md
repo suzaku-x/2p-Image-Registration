@@ -70,7 +70,7 @@ with open(sh_reg3d_path,'w') as f:
 
 ## Check registration
 
-### 2D: peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
+### 2D: Peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
 ### 3D: Open warped zstack and atlas in ImageJ, merge them with different color and check if they match well.
 
 ## Apply transformation
