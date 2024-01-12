@@ -3,18 +3,10 @@
 [![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This is a pipeline for 2D zebrafish brain visualization.
+This is a pipeline for zebra fish brain image registration.
 
 ## Description
 This easy-to-use pipeline which can process fish one by one, around 30 minutes for each fish.
-
-## Table of Contents
-
-- [Preparation](#Preparation)
-- [Packages](#Packages)
-- [Path to change](#Path_to_change)
-- [Check registration](#Check_registration)
-- [Apply transformation](#Apply_transformation)
 
 
 
@@ -34,6 +26,7 @@ This easy-to-use pipeline which can process fish one by one, around 30 minutes f
 1. Motion correction.
 2. Confirm the direction of atlas and your zstack being consistent.
 3. Copy and save each zstack as nrrd format.
+
 ## Packages
 
 
@@ -50,8 +43,7 @@ import time
 ```
 
 
-## Path_to_change
-
+## Path to change
 ### 2D registration
 In this folder, there are all your inputs of one fish, like zstack and planes.
 ```python
@@ -76,13 +68,12 @@ with open(sh_reg3d_path,'w') as f:
 
 
 
-gi
 ## Check registration
 
-### 2D: peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
-### 3D: Open warped zstack and atlas in ImageJ, merge them with different color and check if they match well.
+### 2D: Peaks in similarity plots. Open warped tiffiles and plane tiffiles in ImageJ and compare.
+### 3D: Open warped zstack and atlas in ImageJ, merge them with different colors and check if they match well.
 
 ## Apply transformation
-### Check your ROI csv paths, and check the row names before transformation.
+### Check your ROI csv paths, and check the row names before applying transformation.
 -You can use [this code](renametitle.py) for changing titles.
 
