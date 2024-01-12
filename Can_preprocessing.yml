@@ -240,4 +240,4 @@ dependencies:
     - tzdata==2023.3
     - xarray==2023.8.0
     - xmltodict==0.13.0
-prefix: /home/semmelhacklab/miniconda3/envs/Can_preprocessing
+prefix: /home/semmelhacklab/miniconda3/envs/YX_preprocessing
