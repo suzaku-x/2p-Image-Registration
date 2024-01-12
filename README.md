@@ -12,9 +12,9 @@ This easy-to-use pipeline which can process fish one by one, around 30 minutes f
 
 - [Preparation](#Preparation)
 - [Packages](#Packages)
-- [Path to change](#Path to change)
-- [Check registration](#Check registration)
-- [Apply transformation](#Apply transformation)
+- [Path to change](#Path_to_change)
+- [Check registration](#Check_registration)
+- [Apply transformation](#Apply_transformation)
 
 
 
@@ -34,7 +34,6 @@ This easy-to-use pipeline which can process fish one by one, around 30 minutes f
 1. Motion correction.
 2. Confirm the direction of atlas and your zstack being consistent.
 3. Copy and save each zstack as nrrd format.
-4. 
 ## Packages
 
 
@@ -51,7 +50,8 @@ import time
 ```
 
 
-## Path to change
+## Path_to_change
+
 ### 2D registration
 In this folder, there are all your inputs of one fish, like zstack and planes.
 ```python
